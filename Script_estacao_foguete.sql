@@ -1,4 +1,4 @@
-DROP DATABASE estacao_foguete;
+-- DROP DATABASE estacao_foguete;
 CREATE DATABASE estacao_foguete;
 USE estacao_foguete;
 
@@ -17,12 +17,11 @@ CREATE TABLE cargo (
   PRIMARY KEY (id_cargo));
 
 CREATE TABLE funcionarios (
-  cpf VARCHAR(45) NOT NULL,
+  cpf VARCHAR(45) NOT NULL PRIMARY KEY,
   telefone VARCHAR(45) NOT NULL,
   nome_completo VARCHAR(45) NOT NULL,
   cargo_id_cargo INT NOT NULL,
   data_nascimento DATE NOT NULL,
-  PRIMARY KEY (cpf, cargo_id_cargo), 
     FOREIGN KEY (cargo_id_cargo)
     REFERENCES cargo (id_cargo)
     );

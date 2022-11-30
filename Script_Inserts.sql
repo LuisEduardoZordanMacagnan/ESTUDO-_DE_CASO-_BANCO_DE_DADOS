@@ -31,16 +31,6 @@ insert into laboratorio (qnt_funcionarios, objetivo) values (8, 'Melhoramento de
 insert into laboratorio (qnt_funcionarios, objetivo) values (14, 'Aumentar segurança lançamentos foguete');
 insert into laboratorio (qnt_funcionarios, objetivo) values (13, 'Nomeação de estrelas');
 
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('061983850-7', '+86 (113) 319-4932', 'Kai Hayworth', 9-30-1982);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('220206403-6', '+1 (901) 312-1076', 'Maure Slateford', 8-16-2000);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('637843577-4', '+52 (728) 129-6171', 'Cesya Swanger', 10-20-1984);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('681149328-3', '+375 (509) 989-9690', 'Jessi Swanborrow', 3-9-1993);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('969286182-1', '+48 (481) 384-9448', 'Ninette MacDermand', 5-24-1986);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('698195310-2', '+352 (455) 684-9574', 'Purcell Donnachie', 10-27-1984);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('702099020-7', '+63 (548) 152-0187', 'Cindie Maxstead', 3-29-1981);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('431178767-7', '+62 (412) 928-6107', 'Boycey Gaw', 11-12-1990);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('814769167-3', '+86 (649) 729-2024', 'Robinett Bulmer', 7-28-2000);
-insert into funcionarios (cpf, telefone, nome_completo, data_nascimento) values ('560206716-7', '+386 (614) 116-8723', 'Thacher Lerhinan', 2-16-1999);
 
 insert into cargo (funcao, salario) values ('Cientista', 6859.7);
 insert into cargo (funcao, salario) values ('Pesquisador', 6877.7);
@@ -52,6 +42,18 @@ insert into cargo (funcao, salario) values ('Zelador', 6163.8);
 insert into cargo (funcao, salario) values ('Programador', 3831.7);
 insert into cargo (funcao, salario) values ('Alienigena de estimação', 6077.6);
 insert into cargo (funcao, salario) values ('Estagiário', 6733.4);
+
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('061983850-7', '+86 (113) 319-4932', 'Kai Hayworth', '1982-09-30', 1);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('220206403-6', '+1 (901) 312-1076', 'Maure Slateford', '2000-08-16', 2);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('637843577-4', '+52 (728) 129-6171', 'Cesya Swanger', '1984-10-20', 3);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('681149328-3', '+375 (509) 989-9690', 'Jessi Swanborrow', '1993-03-09', 4);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('969286182-1', '+48 (481) 384-9448', 'Ninette MacDermand', '1986-05-24', 5);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('698195310-2', '+352 (455) 684-9574', 'Purcell Donnachie', '1984-10-27', 6);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('702099020-7', '+63 (548) 152-0187', 'Cindie Maxstead', '1981-03-29', 7);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('431178767-7', '+62 (412) 928-6107', 'Boycey Gaw', '1990-11-12', 8);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('814769167-3', '+86 (649) 729-2024', 'Robinett Bulmer', '2000-07-28', 9);
+insert into funcionarios (cpf, telefone, nome_completo, data_nascimento, cargo_id_cargo) values ('560206716-7', '+386 (614) 116-8723', 'Thacher Lerhinan', '1999-02-16', 10);
+
 
 insert into armazem (espaco) values (18);
 insert into armazem (espaco) values (16);
